@@ -1,4 +1,5 @@
 ## generic files to ignore
+media/**
 *~
 *.lock
 *.DS_Store
