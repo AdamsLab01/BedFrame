@@ -12,7 +12,7 @@ int BrightnessPotOutput = 0; // Raw reading from the BrightnessPot.
 int BrightnessValue = 0; // Mapped reading of the BrightnessPot.
 
 unsigned long ReadingDelay = 0; // Place holder for recodring curent millis.
-unsigned long ReadingDelayLength = 10; // How long (in milliseconds) we wait before taking a reading from the LDR and POTs. This and using the average of 10 readings acts as a debounce.
+unsigned long ReadingDelayLength = 6000; // How long (in milliseconds) we wait before taking a reading from the LDR and POTs. This and using the average of 10 readings acts as a debounce.
 
 const int LDRnumReadings = 10; // How many readings from the LDR we take.
 int LDRreadings[LDRnumReadings]; // Array to store the LDR readings.
